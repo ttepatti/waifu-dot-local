@@ -1,0 +1,7 @@
+[project]
+name = "waifudotlocal"
+version = "1.0.0"
+description = "waifu dot local image delivery service"
+dependencies = [
+    "flask",
+]

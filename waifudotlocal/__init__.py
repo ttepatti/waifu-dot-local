@@ -1,0 +1,1 @@
+from .waifu import create_app

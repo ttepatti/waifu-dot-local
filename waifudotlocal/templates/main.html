@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>waifu.local</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .imgbox {
+            position: absolute;
+            background-image: url({{ waifuImage }});
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100%;
+            width: 100%;
+        }
+        .waifu {
+            max-width: 100%;
+            margin: auto;
+            object-fit: fill;
+        }
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="imgbox">
+            <!-- We use the bg of this div for the waifu image -->
+        </div>
+        <b {{ hidden }} class="error">{{ errorMessage }}</b>
+    </main>
+</body>
+</html>
