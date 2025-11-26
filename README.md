@@ -2,9 +2,9 @@
 
 The waifu dot local image delivery service.
 
-Desktop                                                                        | Mobile
-: ----------------------------------------------------------------------------:|:------------------------------------------------------------------------------------:
-![Screenshot of waifu.local on Desktop](waifu-dot-local_example_screenshot.png)|![Screenshot of waifu.local on Mobile](waifu-dot-local_example_screenshot_mobile.png)
+| Desktop | Mobile |
+| ---------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+![Screenshot of waifu.local on Desktop](waifu-dot-local_example_screenshot.png) | ![Screenshot of waifu.local on Mobile](waifu-dot-local_example_screenshot_mobile.png)
 
 This is a web service that displays a random image every time the page is reloaded. It's intended to be ran on your local network to serve other LAN devices.
 
